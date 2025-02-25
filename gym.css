@@ -1,0 +1,825 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bars{
+    display: none;
+}
+.navigation h1{
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: 40px;
+    
+}
+.navigation ul{
+    position: relative;
+    display: inline-block;
+    /* list-style: none;
+    list-style-type: none;
+    text-decoration: none; */
+}
+.navigation ul li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.home{
+    margin-left: 350px;
+}
+
+
+
+
+
+
+
+/* hero div is start */
+.hero img{
+    position: absolute;
+    width: 100%;
+    /* height: 550px; */
+    filter: blur(0.2px);
+}
+.hero P{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: rgb(142, 138, 136);
+    font-size: 50PX;
+    font-weight: 600;
+    margin-top: 160px;
+    margin-left: 400px;
+}
+.hero h1{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 70px;
+    margin-top: 50px;
+}
+.hero ul{
+    position: relative;
+    display: inline-flex;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+.button-1{ 
+   margin-left: 400px;
+   color: white;
+   font-weight: 600;
+   margin-left: 570px;
+   margin-top: 55px;
+}
+.button-2 {
+    width: 150px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: red;
+    border-color: red;
+    background: none;
+}
+
+
+
+
+  /* header is complate*/
+  .black ul{
+    position: relative;
+    display: inline-flex;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+  }
+.black h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 200px;
+    text-align: center;
+    margin-left: 150px;   
+}
+.black p{
+    color: white;
+    font-size: 25px;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+.black h3{
+    color: rgb(86, 89, 91);
+    margin-left: 240px;
+    margin-top: 10px;
+}
+.black button{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    width: 340px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: orangered;
+    margin-left: 240px;
+}
+.black hr{
+    height: 350px; /* Length of the HR tag */
+    color: rgba(30, 29, 29, 0.864); /* Color of the HR tag */
+    transform: rotate(180deg); 
+    margin-left: 730px;
+    margin-top: -300px;
+}
+.black h5{
+    color: white;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 210px;
+    margin-left: 110px;
+}
+.black h2{
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: 120px;
+}
+.black h4{
+    color: rgb(114, 99, 99);
+    font-weight: 100;
+    font-size: 30px;
+    margin-left: 120px;
+}
+
+  
+
+
+
+/* new div is start */
+.lightwhite{
+    background-color: rgb(176, 180, 180);
+    position: absolute;
+    width: 100%;
+}
+.lightwhite h5{
+    position: relative;
+    display: inline-block;
+    color: black;
+    font-weight: 800;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-left: 150px;
+}
+.lightwhite p{
+    position: relative;
+    color: rgb(93, 89, 89);
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.lightwhite ul{
+    display: inline-block;
+    margin-left: 800px;
+    margin-top: -1060px;
+
+}
+.lightwhite ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin-bottom: 30px;
+    border-radius: 2%;
+}
+.lightwhite ul li img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+.lightwhite ul li h1{
+    font-size: 25px;
+}
+.lightwhite ul li h2{
+    color: rgb(105, 110, 110);
+}
+
+
+
+
+
+
+
+/* white div is start */
+.white h1{
+    display: inline-block;
+    margin-top: 470px;
+    margin-left: 600px;
+    color: rgb(110, 104, 104);
+}
+.white h2{
+    color: black;
+    font-size: 45px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.white ul{
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: -30px;
+}
+.white ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin: 70px;
+    font-family: Arial, sans-serif;
+    background-color: #d6d4d4;
+    margin-bottom: 30px;
+    border-radius: 2%;
+}
+.white ul li img{
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+}
+.white ul li h3{
+    margin-top: 10px;
+}
+.white ul li h4{
+    margin-top: 10px;
+}
+.white ul li p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-left: 80px;
+}
+
+
+
+
+/* lightblack div is start */
+.lightblack{
+    height: 560px;
+    width: 100%;
+}
+.lightblack h1{
+    display: inline-block;
+   color: rgb(94, 91, 91);
+   font-size: 26px;
+   font-weight: 600;
+   margin-top: 60px;
+   margin-left: 580px;
+}
+.lightblack h2{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+}
+.table{
+    margin-top: 30px;
+    margin-left: 55px;
+}
+.table tr th{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    background-color: red;
+}
+.table tr td{
+    text-align: center;
+}
+.table tr td b {
+color: white;
+font-size: 25px;
+font-weight: 600;
+}
+.table tr td{
+    color: #5a5757;
+    font-size: 25px;
+    font-size: 500;
+}
+
+/* last from div is start */
+.form ul{
+    margin-left: 120px;
+}
+.form ul li{
+    display: inline-block;
+    padding: 50px;
+}
+.form ul li form h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+.name{
+    width: 450px;
+    height: 40px;
+    margin-top: 20px;
+}
+.email{
+    width: 450px;
+    height: 40px;
+    margin-top: 20px;
+}
+.Message{
+    margin-top: 20px;
+    width: 450px;
+    height: 200px;
+}
+.send{
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    width: 450px;
+    height: 50px;
+    border-radius: 5%;
+}
+.form ul li p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.form ul li hr{
+    margin-top: 20px;
+}
+.form ul li h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+
+/* footer div is start */
+.footer ul{
+    margin-left: 60px;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 20px;
+}
+.footer ul li p{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet is here */
+@media (max-width:768px){
+    .navigation h1{
+        font-size: 32px;
+        margin-left: 260px;
+        margin-top: 5px;
+    }
+    .navigation ul li a{
+        font-size: 17px;
+        padding: 2px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .hero P{
+        margin-left: 170px;
+        font-size: 30px;
+        margin-top: 60px;
+    }
+    .hero h1{
+        font-size: 50px;
+        margin-top: 15px;
+    }
+    .button-1{
+        font-size: 18px;
+        margin-left: 250px;
+        margin-top: 28px;
+    }
+    .button-2{
+        margin-top: 10px;
+    }
+     /* header is complate*/
+     .black h1{
+        margin-left: 10px;
+        font-size: 40px;
+        margin-top: 120px;
+     }
+     .black p{
+        margin-left: 50px;
+        font-size: 17px;
+     }
+     .black h3{
+        margin-left: 50px;
+        font-size: 15px;
+     }
+     .black button{
+        margin-left: 50px;
+     }
+     .black hr{
+        margin-left: 400px;
+        height: 260px;
+        margin-top: -230px;
+     }
+     .black h5{
+        font-size: 40px;
+        margin-left: 30px;
+        margin-top: 140px;
+     }
+     .black h2{
+        font-size: 20px;
+        margin-left: 30px;
+     }
+     .black h4{
+        font-size: 20px;
+        margin-left: 30px;
+     }
+     /* lightwhite tag is start */
+     .lightwhite h5{
+        font-size: 50px;
+        margin-top: 20px;
+        text-align: center;
+     }
+     .lightwhite p{
+        font-size:18px ;
+     }
+     .lightwhite ul{
+        margin-top: -10px;
+        margin-left: 130px;
+     }
+
+     /* white div is start */
+     .white h1{
+        margin-left: 300px;
+        margin-top: 620px;
+        font-size: 20px;
+     }
+     .white h2{
+        margin-top: 2px;
+        font-size: 30px;
+     }
+     .white ul{
+        margin-left: 60px;
+        margin-top: 10px;
+     }
+     .white ul li{
+        margin: 15px;
+    }
+     .white ul li img{
+        display: inline-block;
+        width: 180px;
+        height: 200px;
+     } 
+     .white ul li h3{
+        font-size: 15px;
+     }
+     .white ul li h4{
+        font-size:12px ;
+     }
+     .button{
+        margin-left: 10px;
+     }
+     .white ul li p{
+        font-size: 12px;
+     }
+
+     /* table div is start */
+     .lightblack{
+        height: 330px;
+        width: 100%;
+    }
+    .lightblack h1{
+        font-size: 20px;
+        margin-left: 270px;
+        margin-top: 18px;
+    }
+    .lightblack h2{
+        font-size: 35px;
+    }
+    .table{
+        margin-left: 46px;
+    }
+    .table tr th{
+        font-size: 18px;
+    }
+    .table tr td b{
+        font-size: 15px;
+    }
+    .table tr td{
+        font-size: 12px;
+    }
+
+
+    /* form div is start */
+    .form ul{
+        margin-left: 30px;
+    }
+    .form ul li{
+        display: inline-block;
+        padding: 20px;
+    }
+    .form ul li form h1{
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .name{
+        width: 270px;
+        height: 20px;
+        margin-top: 20px;
+    }
+    .email{
+        width: 270px;
+        height: 20px;
+        margin-top: 20px;
+    }
+    .Message{
+        margin-top: 20px;
+        width: 270px;
+        height: 140px;
+    }
+    .send{
+        color: white;
+        background-color: black;
+        margin-top: 20px;
+        width: 270px;
+        height: 30px;
+        border-radius: 5%;
+    }
+    .form ul li h1{
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .form ul li p{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .form ul li hr{
+        margin-top: 20px;
+    }
+    .form ul li iframe{
+        width: 300px;
+        height: 180px;
+    }
+    .footer ul{
+        margin-left: 20px;
+    }
+    .footer ul li{
+        display: inline-block;
+        margin: 10px;
+    }
+    .footer ul li p{
+        font-size: 14px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:428px){
+    .bars{
+        display: inline;
+        margin-left: -270px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+    .navigation h1{
+        font-size: 22px;
+    }
+    .navigation ul{
+        display: none;
+    }
+    .hero P{
+        font-size: 16px;
+        margin-left: 75px;
+        margin-top: 30px;
+    }
+    .hero h1{
+        font-size: 27px;
+    }
+    .button-1{
+        font-size: 12px;
+        margin-left: 90px;
+        margin-top: 20px;
+    }
+    .button-2{
+        width: 100px;
+        height: 40px;
+    }
+    /* header is complate*/
+     .black h1{
+        margin-left: 10px;
+        font-size: 23px;
+        margin-top: 50px;
+     }
+     .black p{
+        margin-left: 15px;
+        font-size: 10px;
+     }
+     .black h3{
+        margin-left: 15px;
+        font-size: 8px;
+     }
+     .black button{
+        margin-left: 15px;
+        margin-top: 5px;
+        font-size: 10px;
+        width: 150px;
+        height: 40px;
+     }
+     .black hr{
+        margin-left: 200px;
+        height: 170px;
+        margin-top: -140px;
+     }
+     .black h5{
+        font-size: 23px;
+        margin-left: 10px;
+        margin-top: 60px;
+     }
+     .black h2{
+        font-size: 10px;
+        margin-left: 10px;
+     }
+     .black h4{
+        font-size: 10px;
+        margin-left: 10px;
+     }
+      /* lightwhite tag is start */
+      .lightwhite h5{
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 80px;
+     }
+     .lightwhite p{
+        font-size:10px ;
+        margin-left: 80px;
+     }
+     .lightwhite ul{
+        margin-top: 10px;
+        margin-left: 38px;
+     }
+     .lightwhite ul li{
+        margin: 10px;
+     }
+     .lightwhite ul li img{
+        display: inline-block;
+        width: 130px;
+        height: 130px;
+    }
+    .lightwhite ul li h1{
+        font-size: 10px;
+    }
+    .lightwhite ul li h2{
+        font-size: 10px;
+        color: rgb(105, 110, 110);
+    }
+    /* white tag is start */
+    .white h1{
+        margin-left: 110px;
+        margin-top: 400px;
+        font-size: 20px;
+     }
+     .white ul{
+        margin-left: 65px;
+     }
+     .white ul li{
+        margin: 15px;
+    }
+     .white ul li img{
+        display: inline-block;
+        width: 230px;
+        height: 230px;
+     } 
+     .white ul li h3{
+        font-size: 20px;
+     }
+     .white ul li h4{
+        font-size:18px ;
+        margin-top: 0px;
+     }
+     .button{
+        margin-left: 18px;
+     }
+     .white ul li p{
+        font-size: 18px;
+        margin-top: 0px;
+     }
+    /* table div is start */
+    .lightblack{
+        height: 180px;
+        width: 100%;
+    }
+    .lightblack h1{
+        font-size: 15px;
+        margin-left: 100px;
+        margin-top: 18px;
+    }
+    .lightblack h2{
+        font-size: 20px;
+    }
+    .table{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .table tr th{
+        font-size: 6px;
+    }
+    .table tr td b{
+        font-size: 9px;
+    }
+    .table tr td{
+        font-size: 6px;
+    }
+    
+
+
+
+    /* form div is start */
+    .form ul{
+        margin-left: 10px;
+    }
+    .form ul li{
+        display: inline-block;
+        padding: 10px;
+    }
+    .form ul li form h1{
+        font-weight: 900;
+        font-size: 15px;
+    }
+    .name{
+        width: 150px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .email{
+        width: 150px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .Message{
+        margin-top: 5px;
+        width: 150px;
+        height: 90px;
+    }
+    .send{
+        color: white;
+        background-color: black;
+        margin-top: 5px;
+        width: 150px;
+        height: 20px;
+        border-radius: 5%;
+    }
+    .form ul li h1{
+        font-weight: 900;
+        font-size: 15px;
+    }
+    .form ul li p{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .form ul li hr{
+        margin-top: 20px;
+    }
+    .form ul li iframe{
+        width: 150px;
+        height: 90px;
+    }
+    /* footer div start */
+    .footer ul{
+        margin-left: 70px;
+    }
+    .footer ul li{
+        display: inline-block;
+        margin: 1px;
+    }
+    .footer ul li p{
+        font-size: 10px;
+    }
+    
+
+}
